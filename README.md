@@ -1,0 +1,1 @@
+# rn-qr-code-generator
