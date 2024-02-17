@@ -41,7 +41,7 @@ export default function App() {
           renderItem={({item, index}) => <ColorView color={item} index={index} setColor={setQrColor}/>}
           keyExtractor={(item, index) => index.toString()}
           horizontal
-          showsHorizontalScrollIndicator={false}
+          showsHorizontalScrollIndicator={false} 
         />
         <CustomTextInput onChangeText={qrCodeTextInputChange}/>
         <CustomButton onPress={generateQRCode}/>
